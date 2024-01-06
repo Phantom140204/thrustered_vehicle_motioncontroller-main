@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vehicle>
+
+    <Thruster_Specifications>
+        <No_Of_Thrusters>7</No_Of_Thrusters>
+        <Min_PWM>1172</Min_PWM>
+        <Max_PWM>1772</Max_PWM>
+        <Zero_Thrust_PWM>1472</Zero_Thrust_PWM>
+        <Min_Thrust>-100</Min_Thrust>
+        <Max_Thrust>100</Max_Thrust>
+        <Full_Thrust>100</Full_Thrust>
+    </Thruster_Specifications>
+    <Thruster_Configuration>
+        <Surge_Vector>{-1,-1,-1,-1,0,0,0}</Surge_Vector>
+        <Sway_Vector>{1,-1,-1,1,0,0,0}</Sway_Vector>
+        <Heave_Vector>{0,0,0,0,1,1,1}</Heave_Vector>
+        <Yaw_Vector>{-1,-1,1,1,0,0,0}</Yaw_Vector>
+        <Pitch_Vector>{0,0,0,0,-1,1,-1}</Pitch_Vector>
+        <Roll_Vector>{0,0,0,0,1,0,-1}</Roll_Vector>
+    </Thruster_Configuration>
+
+    <PID_Constants>
+        <Kp>120</Kp>
+        <Ki>0</Ki>
+        <Kd>10</Kd>
+        <Acceptable_error>0</Acceptable_error>
+        <Output_min>-100</Output_min>
+        <Output_max>100</Output_max>
+        <Integral_min>-100</Integral_min>
+        <Integral_max>100</Integral_max>
+    </PID_Constants>
+
+</vehicle>
